@@ -1,0 +1,101 @@
+{
+  "id": "case_apollo_vs_hermes_scroll",
+  "title": "Apollo vs Hermes — The Song of Deception",
+  "evidence": [
+    {
+      "id": "forged_scroll",
+      "image": "forged_scroll"
+    },
+    {
+      "id": "musical_rune",
+      "image": "musical_rune"
+    }
+  ],
+  "scenes": [
+    {
+      "background": "zeus_throne_bg",
+      "character": "zeus_thinking",
+      "text": "Zeus: A melody echoed through Olympus, sowing discord. A forged scroll was found. Court is in session."
+    },
+    {
+      "background": "temple_music_bg",
+      "character": "apollo_outraged",
+      "text": "Apollo: That scroll bears my mark, but I never wrote it! Someone mocks the arts!"
+    },
+    {
+      "background": "temple_music_bg",
+      "character": "hermes_smirk",
+      "text": "Hermes: I heard the tune. Not my style—too flashy. But I do admire a prank well played."
+    },
+    {
+      "background": "temple_music_bg",
+      "character": "muse_terpsichore",
+      "text": "Muse: It stirred our souls… but the runes were wrong. A corruption of harmony."
+    },
+    {
+      "background": "temple_music_bg",
+      "character": "",
+      "text": "",
+      "evidence_id": "forged_scroll"
+    },
+    {
+      "background": "temple_music_bg",
+      "character": "",
+      "text": "",
+      "evidence_id": "musical_rune"
+    },
+    {
+      "background": "zeus_throne_bg",
+      "character": "zeus_thinking",
+      "text": "Zeus: Both jest and genius lie near. Choose justice wisely."
+    }
+  ],
+  "choices": [
+    {
+      "text": "Punish Hermes for forgery",
+      "outcome": {
+        "zeus_reaction": "stern",
+        "reputation": {
+          "hermes": -5,
+          "apollo": 3
+        },
+        "note": "Hermes accepts the punishment with a wink. Apollo nods solemnly."
+      }
+    },
+    {
+      "text": "Blame the muses for lax guardianship",
+      "outcome": {
+        "zeus_reaction": "harsh",
+        "reputation": {
+          "muses": -3,
+          "apollo": -2
+        },
+        "note": "The muses weep. Apollo turns silent. The arts tremble."
+      }
+    },
+    {
+      "text": "Claim the scroll as a divine prank (requires forged_scroll)",
+      "requirement": "forged_scroll",
+      "outcome": {
+        "zeus_reaction": "amused",
+        "reputation": {
+          "zeus": 3,
+          "hermes": 3
+        },
+        "note": "Zeus chuckles. Hermes grins. Apollo fumes. Olympus laughs."
+      }
+    },
+    {
+      "text": "Ask Apollo to compose a new song with Hermes",
+      "outcome": {
+        "zeus_reaction": "smiling",
+        "reputation": {
+          "apollo": 3,
+          "hermes": 3,
+          "muses": 2
+        },
+        "note": "Together, they create a new harmony. The scroll fades into legend."
+      }
+    }
+  ]
+}
