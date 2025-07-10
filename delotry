@@ -56,8 +56,9 @@
       "outcome": {
         "zeus_reaction": "stern",
         "reputation": {
-          "hermes": -5,
-          "apollo": 3
+          "Hermes": -5,
+          "Apollo": 3,
+          "Zeus": 2
         },
         "note": "Hermes accepts the punishment with a wink. Apollo nods solemnly."
       }
@@ -67,8 +68,8 @@
       "outcome": {
         "zeus_reaction": "harsh",
         "reputation": {
-          "muses": -3,
-          "apollo": -2
+          "Apollo": -2,
+          "Zeus": -1
         },
         "note": "The muses weep. Apollo turns silent. The arts tremble."
       }
@@ -79,8 +80,8 @@
       "outcome": {
         "zeus_reaction": "amused",
         "reputation": {
-          "zeus": 3,
-          "hermes": 3
+          "Zeus": 3,
+          "Hermes": 3
         },
         "note": "Zeus chuckles. Hermes grins. Apollo fumes. Olympus laughs."
       }
@@ -90,9 +91,9 @@
       "outcome": {
         "zeus_reaction": "smiling",
         "reputation": {
-          "apollo": 3,
-          "hermes": 3,
-          "muses": 2
+          "Apollo": 3,
+          "Hermes": 3,
+          "Zeus": 2
         },
         "note": "Together, they create a new harmony. The scroll fades into legend."
       }
